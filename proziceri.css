@@ -1,0 +1,124 @@
+html {
+  position: relative;
+  min-height: 900px;
+}
+
+body{
+  margin: 0 0 40px;
+  padding: 0;
+  border: 0;
+  font-family: 'Radley', serif;
+  text-align: center;
+}
+
+#logoContainer{
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+}
+
+#header{
+  font-size: 70px;
+}
+#subHeader{
+  font-size: 20px;
+}
+
+#originalSayingsContainer{
+  height: 100px;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+#dadaSayingContainer{
+	height: 50px; 
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  cursor: pointer;  
+}
+#dadaSaying{
+  padding-bottom: 10px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  font-size: 50px;
+  color: red;
+}
+#newSaying{
+  outline: 0;
+  margin-top: 25px;
+  font-size: 16px;
+  background-color: white;
+  border: 1px solid #555555;
+  width: 220px;
+  padding: 5px;
+  border-radius: 10px;
+}
+#shareOnFacebook{
+  outline: 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  background-color: white;
+  border: 1px solid #555555;
+  width: 220px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#nextSaying{
+  outline: 0;
+  font-size: 14px;
+  background-color: white;
+  border: 1px solid #555555;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: 10px;
+  width: 100px;
+}
+#previousSaying{
+  outline: 0;
+  font-size: 14px;
+  background-color: white;
+  border: 1px solid #555555;
+  padding: 5px;
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 100px;
+}
+
+#generatedSayingsText{
+  font-size: 17px;
+  cursor: auto;
+}
+
+#aboutContainer{
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 18px;
+}
+#about {
+  font-size: 20px;
+  text-align: center;
+  margin-left: -29px;
+  cursor: pointer;
+  bottom: 15px;
+  position: fixed;
+}
+
+#contactIcons > a{
+  padding-right: 5px;
+}
