@@ -23,6 +23,7 @@ body{
 #header{
   font-size: 70px;
 }
+
 #subHeader{
   font-size: 20px;
 }
@@ -83,6 +84,7 @@ body{
   margin-left: 10px;
   width: 100px;
 }
+
 #previousSaying{
   outline: 0;
   font-size: 14px;
@@ -101,7 +103,7 @@ body{
 
 #aboutContainer{
   width: 800px;
-  height: 500px;
+  height: 560px;
   margin: auto;
   position: absolute;
   top: 0;
@@ -110,6 +112,7 @@ body{
   right: 0;
   font-size: 18px;
 }
+
 #about {
   font-size: 20px;
   text-align: center;
