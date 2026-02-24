@@ -294,10 +294,10 @@ class TestProverbCSVCleaner(unittest.TestCase):
         self.assertEqual(len(data), 1)
 
     def test_real_data_file(self):
-        """Test with actual Proziceri.csv file"""
-        input_file = Path("Proziceri.csv")
+        """Test with actual ../data/Proziceri.csv file"""
+        input_file = Path("../data/../data/Proziceri.csv")
         if not input_file.exists():
-            self.skipTest("Proziceri.csv not found")
+            self.skipTest("../data/Proziceri.csv not found")
 
         output_file = self.temp_path / "output.csv"
 
@@ -339,9 +339,9 @@ class TestCleanedCSVFile(unittest.TestCase):
 
     def setUp(self):
         """Set up test fixtures"""
-        self.csv_file = Path("Proziceri_clean.csv")
+        self.csv_file = Path("../data/../data/Proziceri.csv")
         if not self.csv_file.exists():
-            self.skipTest("Proziceri_clean.csv not found")
+            self.skipTest("../data/Proziceri.csv not found")
 
     def test_file_exists(self):
         """Test that cleaned CSV file exists"""
@@ -445,9 +445,9 @@ class TestEnrichedCSVFile(unittest.TestCase):
 
     def setUp(self):
         """Set up test fixtures"""
-        self.csv_file = Path("Proziceri_enriched.csv")
+        self.csv_file = Path("../data/Proziceri_enriched.csv")
         if not self.csv_file.exists():
-            self.skipTest("Proziceri_enriched.csv not found")
+            self.skipTest("../data/Proziceri_enriched.csv not found")
 
     def test_enriched_file_exists(self):
         """Test that enriched CSV file exists"""
@@ -530,7 +530,7 @@ class TestEnrichedCSVFile(unittest.TestCase):
 
     def test_enriched_preserves_original_data(self):
         """Test that enrichment preserves original proverb data"""
-        with open("Proziceri_clean.csv", 'r', encoding='utf-8') as f:
+        with open("../data/Proziceri.csv", 'r', encoding='utf-8') as f:
             clean_rows = list(csv.DictReader(f))
 
         with open(self.csv_file, 'r', encoding='utf-8') as f:
@@ -547,9 +547,9 @@ class TestCSVCompliance(unittest.TestCase):
 
     def setUp(self):
         """Set up test fixtures"""
-        self.csv_file = Path("Proziceri_clean.csv")
+        self.csv_file = Path("../data/../data/Proziceri.csv")
         if not self.csv_file.exists():
-            self.skipTest("Proziceri_clean.csv not found")
+            self.skipTest("../data/Proziceri.csv not found")
 
     def test_fields_with_commas_are_quoted(self):
         """Test that fields containing commas are properly quoted"""

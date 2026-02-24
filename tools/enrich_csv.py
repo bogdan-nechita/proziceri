@@ -177,8 +177,8 @@ class ProverbEnricher:
 
 def main():
     """Main entry point"""
-    input_file = "Proziceri_clean.csv"
-    output_file = "Proziceri_enriched.csv"
+    input_file = "../data/Proziceri.csv"
+    output_file = "../data/Proziceri_enriched.csv"
 
     if not Path(input_file).exists():
         print(f"Error: {input_file} not found")
