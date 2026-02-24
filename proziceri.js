@@ -5,33 +5,31 @@ var allParsedSayings;
 // The saying currently on display.
 var currentSaying;
 
-$(document).ready(function() {
+document.addEventListener('DOMContentLoaded', function() {
     openCSVFile();
 
-    $("#originalSayingsContainer").css("top", function() {
-        return $("#dadaSaying").offset().top - 100;
+    var dadaSaying = document.getElementById('dadaSaying');
+    var originalSayingsContainer = document.getElementById('originalSayingsContainer');
+
+    originalSayingsContainer.style.top = (dadaSaying.offsetTop - 100) + 'px';
+
+    dadaSaying.addEventListener('mouseenter', function() {
+        originalSayingsContainer.style.display = '';
+    });
+    dadaSaying.addEventListener('mouseleave', function() {
+        originalSayingsContainer.style.display = 'none';
     });
 
-    $("#dadaSaying").hover(
-        function() {
-            $("#originalSayingsContainer").show();
-        },
-        function() {
-            $("#originalSayingsContainer").hide();
-        });
-
-    $("#newSaying").click(function() {
+    document.getElementById('newSaying').addEventListener('click', function() {
         getDadaSaying();
     });
 
-    $("#previousSaying").click(function() {
+    document.getElementById('previousSaying').addEventListener('click', function() {
         if (sayings_in_session.length > 1) {
-            var indexes = $.map(sayings_in_session, function(obj, index) {
-                if (obj.dada == currentSaying.dada) {
-                    return index;
-                }
-            })
-            var indexOfCurrentSession = indexes[0]
+            var indexes = sayings_in_session
+                .map(function(obj, index) { return obj.dada == currentSaying.dada ? index : null; })
+                .filter(function(i) { return i !== null; });
+            var indexOfCurrentSession = indexes[0];
 
             if (indexOfCurrentSession > 0) {
                 var previousSaying = sayings_in_session[indexOfCurrentSession - 1];
@@ -40,14 +38,12 @@ $(document).ready(function() {
         }
     });
 
-    $("#nextSaying").click(function() {
+    document.getElementById('nextSaying').addEventListener('click', function() {
         if (sayings_in_session.length > 1) {
-            var indexes = $.map(sayings_in_session, function(obj, index) {
-                if (obj.dada == currentSaying.dada) {
-                    return index;
-                }
-            })
-            var indexOfCurrentSession = indexes[0]
+            var indexes = sayings_in_session
+                .map(function(obj, index) { return obj.dada == currentSaying.dada ? index : null; })
+                .filter(function(i) { return i !== null; });
+            var indexOfCurrentSession = indexes[0];
 
             if (indexOfCurrentSession < sayings_in_session.length - 1) {
                 var nextSaying = sayings_in_session[indexOfCurrentSession + 1];
@@ -56,15 +52,15 @@ $(document).ready(function() {
         }
     });
 
-    $("#about").click(function() {
+    document.getElementById('about').addEventListener('click', function() {
         if (this.innerText == "despre") {
             this.innerText = "înapoi";
-            $("#sayingsContainer").hide();
-            $("#aboutContainer").show();
+            document.getElementById('sayingsContainer').style.display = 'none';
+            document.getElementById('aboutContainer').style.display = '';
         } else {
             this.innerText = "despre";
-            $("#sayingsContainer").show();
-            $("#aboutContainer").hide();
+            document.getElementById('sayingsContainer').style.display = '';
+            document.getElementById('aboutContainer').style.display = 'none';
         }
     });
 
@@ -78,9 +74,9 @@ function addSayingToSession(dada_saying, first_saying, second_saying) {
 function displaySaying(dada_saying, first_saying, second_saying) {
     currentSaying = { 'dada': dada_saying, 'first': first_saying, 'second': second_saying };
 
-    $("#dadaSaying").html(dada_saying);
-    $("#oSaying1").html(first_saying);
-    $("#oSaying2").html(second_saying);
+    document.getElementById('dadaSaying').innerHTML = dada_saying;
+    document.getElementById('oSaying1').innerHTML = first_saying;
+    document.getElementById('oSaying2').innerHTML = second_saying;
 }
 
 function getDadaSaying() {
@@ -107,12 +103,9 @@ function getDadaSaying() {
 }
 
 function openCSVFile() {
-    $.ajax({
-        type: "GET",
-        url: "data/Proziceri.csv",
-        dataType: "text",
-        success: function(data) { processData(data); }
-    });
+    fetch('data/Proziceri.csv')
+        .then(function(response) { return response.text(); })
+        .then(function(data) { processData(data); });
 }
 
 function processData(data) {
