@@ -15,8 +15,7 @@ proziceri/
 │   └── favicon.ico              # Website icon
 │
 ├── data/                        # 📊 Data Files
-│   ├── Proziceri.csv            # ACTIVE: Cleaned, standardized proverbs (890 entries)
-│   └── Proziceri_legacy.csv     # ARCHIVED: Original unmodified file
+│   └── Proziceri.csv            # Cleaned, standardized proverbs (890 entries)
 │
 ├── tools/                       # 🔧 Internal Tools & Scripts
 │   ├── csv_analysis_tool.py     # Analyze and report on CSV data
@@ -105,7 +104,6 @@ node tests/proziceri.test.js
 ## Data Management
 
 - **Active Data**: `data/Proziceri.csv` - This is what the website uses
-- **Legacy Data**: `data/Proziceri_legacy.csv` - Original unmodified backup
 - **Enriched Data**: Optional enhanced version with IDs and categories (generate with `tools/enrich_csv.py`)
 
 ### Data Statistics
@@ -127,6 +125,5 @@ To deploy:
 When modifying the CSV data:
 1. Always work with tools in the `tools/` directory
 2. Update `data/Proziceri.csv` only through standardization
-3. Keep `data/Proziceri_legacy.csv` as backup
-4. Run tests to validate changes
-5. Update documentation as needed
+3. Run tests to validate changes
+4. Update documentation as needed

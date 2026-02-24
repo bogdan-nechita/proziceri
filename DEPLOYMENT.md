@@ -81,5 +81,4 @@ After deploying, verify:
 
 If issues occur:
 1. Revert `website/proziceri.js` line 112 to hardcoded path if needed
-2. Keep `data/Proziceri_legacy.csv` for emergency fallback
-3. All tools in `tools/` are development-only and don't affect live site
+2. All tools in `tools/` are development-only and don't affect live site
