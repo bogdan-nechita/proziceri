@@ -6,13 +6,12 @@ Proverbe și zicători românești cu un strop de dada (Romanian proverbs and sa
 
 ```
 proziceri/
-├── website/                      # 🌐 Website - User-facing application
-│   ├── index.html               # Main HTML page
-│   ├── proziceri.js             # Core logic for generating dada sayings
-│   ├── proziceri.logic.js       # Utility functions for text processing
-│   ├── proziceri.css            # Styling
-│   ├── papaparse.min.js         # CSV parsing library
-│   └── favicon.ico              # Website icon
+├── index.html               # Main HTML page
+├── proziceri.js             # Core logic for generating dada sayings
+├── proziceri.logic.js       # Utility functions for text processing
+├── proziceri.css            # Styling
+├── papaparse.min.js         # CSV parsing library
+├── favicon.ico              # Website icon
 │
 ├── data/                        # 📊 Data Files
 │   └── Proziceri.csv            # Cleaned, standardized proverbs (890 entries)
@@ -40,7 +39,7 @@ proziceri/
 
 ## Website Usage
 
-The website loads proverbs from `data/Proziceri.csv` and generates dada sayings by:
+The website loads proverbs from `data/Proziceri.csv` (served from the project root) and generates dada sayings by:
 1. Randomly selecting two proverbs
 2. Splitting each at the separator
 3. Combining the first half of one with the second half of the other
@@ -115,11 +114,10 @@ node tests/proziceri.test.js
 ## Deployment
 
 To deploy:
-1. Ensure `website/` folder contains all necessary files
-2. Open `website/index.html` to run the site locally
-3. The website loads `../data/Proziceri.csv` automatically
-4. Deploy `website/` folder to web server
-5. Keep `data/` folder accessible (same server or CDN)
+1. Serve the project root via a web server
+2. Open `index.html` to run the site locally
+3. The website loads `data/Proziceri.csv` automatically
+4. Deploy the project root to a web server
 
 ## Contributing
 
