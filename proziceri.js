@@ -109,7 +109,7 @@ function getDadaSaying() {
 function openCSVFile() {
     $.ajax({
         type: "GET",
-        url: "../data/Proziceri.csv",
+        url: "data/Proziceri.csv",
         dataType: "text",
         success: function(data) { processData(data); }
     });
