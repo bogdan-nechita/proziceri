@@ -1,0 +1,21 @@
+{
+  "name": "proziceri",
+  "version": "1.0.0",
+  "description": "Proverbe și zicători românești cu un strop de dada (Romanian proverbs and sayings with a touch of dada)",
+  "main": "proziceri.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.2",
+    "globals": "^17.3.0"
+  }
+}
