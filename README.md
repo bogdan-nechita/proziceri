@@ -116,9 +116,10 @@ node tests/proziceri.test.js
 
 To deploy:
 1. Ensure `website/` folder contains all necessary files
-2. The website loads `../data/Proziceri.csv` automatically
-3. Deploy `website/` folder to web server
-4. Keep `data/` folder accessible (same server or CDN)
+2. Open `website/index.html` to run the site locally
+3. The website loads `../data/Proziceri.csv` automatically
+4. Deploy `website/` folder to web server
+5. Keep `data/` folder accessible (same server or CDN)
 
 ## Contributing
 
