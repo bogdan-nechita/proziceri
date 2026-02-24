@@ -440,6 +440,108 @@ class TestCleanedCSVFile(unittest.TestCase):
         self.assertIn('ț', content)
 
 
+class TestEnrichedCSVFile(unittest.TestCase):
+    """Tests for the enriched CSV with metadata"""
+
+    def setUp(self):
+        """Set up test fixtures"""
+        self.csv_file = Path("Proziceri_enriched.csv")
+        if not self.csv_file.exists():
+            self.skipTest("Proziceri_enriched.csv not found")
+
+    def test_enriched_file_exists(self):
+        """Test that enriched CSV file exists"""
+        self.assertTrue(self.csv_file.exists())
+
+    def test_enriched_has_correct_columns(self):
+        """Test that enriched CSV has all required columns"""
+        with open(self.csv_file, 'r', encoding='utf-8') as f:
+            first_line = f.readline()
+
+        self.assertEqual(
+            first_line.strip(),
+            "id,part_one,separator,part_two,category"
+        )
+
+    def test_enriched_has_890_entries(self):
+        """Test that enriched CSV has 890 entries"""
+        with open(self.csv_file, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            rows = list(reader)
+
+        self.assertEqual(len(rows), 890)
+
+    def test_enriched_all_entries_have_id(self):
+        """Test that all entries have unique sequential IDs"""
+        with open(self.csv_file, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            rows = list(reader)
+
+        for idx, row in enumerate(rows, 1):
+            self.assertEqual(int(row['id']), idx)
+
+    def test_enriched_all_entries_have_category(self):
+        """Test that all entries have a category"""
+        with open(self.csv_file, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            rows = list(reader)
+
+        valid_categories = {
+            'wisdom', 'love', 'death', 'nature', 'hardship',
+            'work', 'divine', 'social', 'character', 'wealth'
+        }
+
+        for row in rows:
+            self.assertIn(row['category'], valid_categories)
+
+    def test_enriched_category_distribution(self):
+        """Test category distribution statistics"""
+        with open(self.csv_file, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            rows = list(reader)
+
+        category_counts = {}
+        for row in rows:
+            cat = row['category']
+            category_counts[cat] = category_counts.get(cat, 0) + 1
+
+        # Wisdom should be largest category
+        self.assertGreater(category_counts['wisdom'], 400)
+
+        # Nature should be second largest
+        self.assertGreater(category_counts['nature'], 150)
+
+        # Total should be 890
+        self.assertEqual(sum(category_counts.values()), 890)
+
+    def test_enriched_example_categorizations(self):
+        """Test specific examples are correctly categorized"""
+        with open(self.csv_file, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            rows = list(reader)
+
+        # Entry 1: "Va răsări soarele" - should be nature (soarele = sun)
+        self.assertEqual(rows[0]['id'], '1')
+        self.assertEqual(rows[0]['category'], 'nature')
+
+        # Entry 5: "A nu avea nici sfânt" - should be divine
+        self.assertEqual(rows[4]['id'], '5')
+        self.assertEqual(rows[4]['category'], 'divine')
+
+    def test_enriched_preserves_original_data(self):
+        """Test that enrichment preserves original proverb data"""
+        with open("Proziceri_clean.csv", 'r', encoding='utf-8') as f:
+            clean_rows = list(csv.DictReader(f))
+
+        with open(self.csv_file, 'r', encoding='utf-8') as f:
+            enriched_rows = list(csv.DictReader(f))
+
+        for clean, enriched in zip(clean_rows, enriched_rows):
+            self.assertEqual(clean['part_one'], enriched['part_one'])
+            self.assertEqual(clean['separator'], enriched['separator'])
+            self.assertEqual(clean['part_two'], enriched['part_two'])
+
+
 class TestCSVCompliance(unittest.TestCase):
     """Tests for RFC 4180 CSV compliance"""
 
@@ -483,6 +585,7 @@ def run_tests_with_report():
     # Add all test classes
     suite.addTests(loader.loadTestsFromTestCase(TestProverbCSVCleaner))
     suite.addTests(loader.loadTestsFromTestCase(TestCleanedCSVFile))
+    suite.addTests(loader.loadTestsFromTestCase(TestEnrichedCSVFile))
     suite.addTests(loader.loadTestsFromTestCase(TestCSVCompliance))
 
     # Run tests with verbosity
