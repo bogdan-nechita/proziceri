@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var dadaSaying = document.getElementById('dadaSaying');
     var originalSayingsContainer = document.getElementById('originalSayingsContainer');
 
-    originalSayingsContainer.style.top = (dadaSaying.offsetTop - 100) + 'px';
+    originalSayingsContainer.style.top = (dadaSaying.getBoundingClientRect().top + window.scrollY - 100) + 'px';
 
     dadaSaying.addEventListener('mouseenter', function() {
         originalSayingsContainer.style.display = '';
