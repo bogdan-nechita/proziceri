@@ -17,7 +17,7 @@ Baba a căzut din pod,și,tot s-a hodinit la jumătate.
 Baba bătrână nu se teme, ,de vorba groasă.
 Baba călătoare, ,n-are sărbătoare.
 Bacșisul să fie cât de mic,",",că-l vrea și domn și calic.
-"""Bagă-l în casă, te fură""",",","""dă-l afară, te înjură."""
+"Bagă-l în casă, te fură",",","""dă-l afară, te înjură."""
 Bani au mulți,însă,cinste n-au toți.
 Barba lasă să se ducă,",",capul să trăiască.
 Barbă lungă,",",minte scurtă.
@@ -48,7 +48,7 @@ C-un picior în groapă,și,cu altul afară.
 Ca necinstea,",",nici o pedeapsă mai grea.
 Ca răbdarea la necaz,",",nici un leac mai bun.
 Ca să te poți scărpina bine,",",trebuie să ai de cine.
-"""Că-i laie, că-i bălaie""",",","""ba una, ba alta."""
+"Că-i laie, că-i bălaie",",","""ba una, ba alta."""
 Căința din urmă,să,nu fie mai mare decât ce dintâi.
 Călătorului îi șade bine cu drumul,ca și,calului cu frâul.
 Călugărul și cerșetorul, ,sunt totuna.
@@ -137,7 +137,7 @@ Care ascultă la ușă,",",își aude defaima.
 Care începe bine,",",sfârșește frumos.
 Care însuși face,",",face cât trei.
 Casa e casă,când,ai o gospodină în casă.
-"""Casa-i goală, ca o oală""",",",de n-are de ce se prinde mâța.
+"Casa-i goală, ca o oală",",",de n-are de ce se prinde mâța.
 Căscatul dintâi, ,cere căpătâi.
 Cât de mică picătura,și,tot găurește piatra.
 Cât de rău să trăiască omul,tot,nu se îndură să moară.
@@ -147,7 +147,7 @@ Cât e moșul de bătrân,",",tot dorește măr în sân.
 Cât ține nunta,",",slugile sunt scutite de bătaie.
 Câtă pânză ai lucrat,",",apusul soarelui ți-o arată.
 Cătătura dulce, ,la dragoste duce.
-"""Câte belele, câte bube rele""",",",toate-n capul babei mele.
+"Câte belele, câte bube rele",",",toate-n capul babei mele.
 Câte capete,",",atâtea păreri.
 Câte flori sunt pe pământ,",",toate se duc în mormânt.
 Câte sate a umblat,",",atâtea meșteșuguri a învătat.
@@ -282,15 +282,15 @@ De ce beau la băutură,",",de ce am inimă bună.
 De ce te temi,",",de aceea nu scapi.
 De departe trandafir,",",de aproape borș cu știr.
 De fiecare pahar plin,",",bețivul trage câte-un suspin.
-"""De la pâine, putere""",",","""de la spirt, durere."""
+"De la pâine, putere",",","""de la spirt, durere."""
 De moarte nimeni nu e gata,când,sosește ceasul.
 De moarte nu te teme,și,de viață nu fii cu grijă.
-"""De moarte și de nuntă, nimeni, niciodată""",",",nu poate fi gata.
+"De moarte și de nuntă, nimeni, niciodată",",",nu poate fi gata.
 De multe ori ai gură,și,n-ai limbă.
 De nu era nasul,",",beleai obrazul.
 De nu știi ca Hristos,",",batâr ca Sfântul Petru.
 De omul viteaz,și,moartea face haz.
-"""De sfânt","sfânt să fii""","dar,de frică tot să știi."
+"De sfânt, sfânt să fii",dar,de frică tot să știi.
 De spălat ce-i,",",o ling mâțele.
 De te potrivești paharului,",",nu ești om.
 De unde alergi,",",d-acolo mănânci.
@@ -350,7 +350,7 @@ E bătut la cap,",",tocmai ca un țap.
 E bine să fii stângaci,ca să,împuști pe dracu’.
 E om frumos,dar,năravul îl strică.
 Este tare de urechi,că,n-are două perechi.
-"""Fă-mă",mamă,"cu noroc"",și,m-azvârle-apoi și-n foc."
+"Fă-mă, mamă, cu noroc",și,m-azvârle-apoi și-n foc.
 Fă-te frate și cu dracu’,",",până treci podul.
 Fă-ți cruce mare,că,e dracu’ bătrân.
 Femeia cinstită, ,e soarele casei.
@@ -365,9 +365,9 @@ Frumusețea veștejește,dar,înțelepciunea crește.
 Fuge de dracu’,și,dă peste satana.
 Fuge de noroc,ca,dracul de tămâie.
 Fugi de noroc,",",da’ el după tine.
-"""Fugiți, călcâie""",",",că vă calc!
+"Fugiți, călcâie",",",că vă calc!
 Gândul nebunului,",",la capătul pământului.
-"""Gol ai venit, gol te duci""",",",cu tine d-aici nimic nu duci.
+"Gol ai venit, gol te duci",",",cu tine d-aici nimic nu duci.
 Gura e ca apa și vântul,:,greu se oprește.
 Gura îndulcește,",",gura amărăște.
 Gura mereu curățată,",",de dureri este cruțată.
@@ -381,7 +381,7 @@ Gura tăcută,",",nu umblă bătută.
 Gura zice,",",vântul duce.
 Hoțul își bate joc de cinste,dar,la nevoie o cerșește.
 Iartă pe toți,",",numai pe tine nu.
-"""Iartă-l","Doamne""","că,nu știe ce face."
+"Iartă-l, Doamne",că,nu știe ce face.
 Îi arăți pe Dumnezeu,și,zice că e dracu’.
 Îi e mai mare urechea pe care iese,",",decât aceea pe care intră.
 Îl caută moartea pe-acasă,și,el umbla prin vecini.
@@ -473,7 +473,7 @@ Nu-i dracul drac,ca,străinul în conac.
 Nu-i frumos ce-i frumos,dar,e frumos ce-mi place mie.
 Nu-i frumos cine se ține,",",îi frumos cui îi stă bine.
 Nu-i viață fără vină,și,moarte fără pricină.
-"""Nu-mi da","Doamne""","cât,pot răbda."
+"Nu-mi da, Doamne",cât,pot răbda.
 Nu-mi place că-i frumos,dar,îmi place că-mi place.
 Numai când moare omul, ,se cunoaște ce-a fost.
 O mână spală pe alta,și,"""amandouă, obrazul."""
@@ -483,7 +483,7 @@ Oamenii în sat nu întreabă de casa frumosului,dar,de-a mintiosului.
 Ochi pentru ochi,și,dinte pentru dinte.
 Ochii sperie,",",picioarele bucură.
 Ochii văd,",",inima cere.
-"""Ochii văd","inima cere""","dar,e rău când n-ai putere."
+"Ochii văd, inima cere",dar,e rău când n-ai putere.
 Om bun,dar,cu năravul dracului.
 Om frumos, ,fără ponos nu se poate.
 Om în trup destul de mare,și,minte de copil are.
@@ -495,12 +495,12 @@ Omul când suspină,și,dracului i-e milă.
 Omul cât trăiește,",",de noroc se plânge.
 Omul cu toate se deprinde,",",numai să vrea.
 Omul dacă se păzește,și,Dumnezeu îl grijește.
-"""Omul, ca oul""",",",cum îl atingi îndată se sparge.
-"""Omul, când e să se înece""",",",se agață și de un pai.
-"""Omul, când își pierde drumul""",",",nu găsește nici cărarea.
-"""Omul, când se pricopsește""",",",la ai săi nu se gândește.
-"""Omul, cât de bătrân să fie""",",",tot nu vrea să moară.
-"""Omul, cât îl lași""",",",atâta se întinde.
+"Omul, ca oul",",",cum îl atingi îndată se sparge.
+"Omul, când e să se înece",",",se agață și de un pai.
+"Omul, când își pierde drumul",",",nu găsește nici cărarea.
+"Omul, când se pricopsește",",",la ai săi nu se gândește.
+"Omul, cât de bătrân să fie",",",tot nu vrea să moară.
+"Omul, cât îl lași",",",atâta se întinde.
 Păcatele-s pe oameni,",",nu pe butuci.
 Păcatul intră râzând,și,iese plângând.
 Păcatul mărturisit, ,este pe jumătate iertat.
@@ -522,10 +522,10 @@ Pielea rea și răpănoasă,ori,o bate ori o lasă.
 Plin de noroc, ,ca oaia de curnuți.
 Plini de barbă,și,goi de minte.
 Prost să fii,",",noroc să ai.
-"""Puiu","chiar de drac""","și,tot e frumos."
+"Puiu, chiar de drac",și,tot e frumos.
 Rabdă inimă și taci,că,tu toate mi le faci.
 Rabdă inimă și taci,",",ce-ai făcut să nu mai faci.
-"""Rabdă","suflețele""","și,la bune și la rele."
+"Rabdă, suflețele",și,la bune și la rele.
 Rachiul nu te întărește,dar,te calicește.
 Râde dracul de porumbele negre,și,nu se vede pe el.
 Râde om de om,și,dracul râde de toți.
@@ -555,7 +555,7 @@ Soarele răsare,chiar,dacă nu cântă cocoșii.
 Știe numai Dumnezeu,și,vaca.
 Stomacul cel tare,și,pietre mistuie.
 Sub mănușă stă ascunsă,și,cea mai urâtă mână.
-"""Taci","limbă""","că,nu te doare capul."
+"Taci, limbă",că,nu te doare capul.
 Tânăr lângă tânără,",",ca paiele lângă foc.
 Țara moare de tătari,și,el bea cu lăutari.
 Te spune nasul,că,îți place vinarsul.
@@ -607,7 +607,7 @@ Decât o mie de ani răi,",",mai bine unul bun.
 Fie iarna cât de rece,",",numai Mărțișor de-ar trece.
 Fie orișicât de rece,",",numai Făurar de-ar trece.
 Ianuarie începe anul,dar,e mijlocul iernii.
-"""Iarna-i grea, omătul mare""",",",vai de omul care n-are.
+"Iarna-i grea, omătul mare",",",vai de omul care n-are.
 I-a venit vremea,dar,nu i-a venit ceasul.
 Rabdă un ceas,și,vei trăi un an.
 Scoală-te de dimineață,",",dacă vrei să-ți lungești viața.
@@ -634,19 +634,19 @@ Vântul ațâță focul,și,vorba ațâță vrajba.
 Vântul bate,",",câinii latră.
 Aurul și în gunoi,",",tot aur rămâne.
 Fieru-i fier,și,tot îl mănâncă rugina.
-"""Focul, când se-ncinge""",",",greu se stinge.
+"Focul, când se-ncinge",",",greu se stinge.
 Când e un singur pelin pe imaș,",",de departe se vede.
 Copacul când se sfărâmă,",",și p-alții mici cu el dărâmă.
 Copacul daca înfrunzește,",",umbrește și pe alții.
 Dacă floare ți-o păzești,",",rob bun dobândești.
 Dacă pădurea n-ar da coadă securei,",",pădurea n-ar putea fi tăiată.
-"""Floarea, cum se deschide""",",",se vede ce rod dă.
-"""Floarea, până n-o pui la nas""",",",n-o cunoști ce miros are.
+"Floarea, cum se deschide",",",se vede ce rod dă.
+"Floarea, până n-o pui la nas",",",n-o cunoști ce miros are.
 Flori frumoase sunt multe,dar,nu toate au miros dulce.
 Florile trandafirului se scutură,dar,spinii rămân.
 Toți copacii înfrunzesc,dar,nu toți dau roade.
 Trestia care se pleacă vântului,",",niciodată nu se frânge.
-"""Fructul, dacă se desprinde de pom""",",",înapoi nu se mai întoarce.
+"Fructul, dacă se desprinde de pom",",",înapoi nu se mai întoarce.
 Pe deasupra măr frumos,",",da-năuntru-i viermănos.
 Poama coaptă nu se caută după față,",",ci după dulceață.
 Via cere sapă adâncă și deasă,",",ca să ne dea nouă leac de viață.
@@ -669,11 +669,11 @@ Calul trage la traista cu ovăs,și,omul la crâșma cu vin ales.
 Calului să-i dai mâncare cu sacul,și,să-l mâi ca pe dracul.
 Calul unde se trântește,",",acolo bate-l.
 Capra cât de bătrână,",",vrea să lingă și ea sare.
-"""Capra, cât de râioasă""",",",tot ține coada sus.
+"Capra, cât de râioasă",",",tot ține coada sus.
 Capra sare masa,",",iada sare casa.
 Capra face,",",oaia trage.
 Câinele care s-a înțeles cu lupii,",",nu păzește turma.
-"""Câinele, că-i câine""",",",dar și el își ia lumea în cap de la o vreme.
+"Câinele, că-i câine",",",dar și el își ia lumea în cap de la o vreme.
 Câinele latră,",",hoțul tace și fură.
 Câinele latră,",",iar lupul tace și face.
 Câinele latră,",",ursul merge.
@@ -720,14 +720,14 @@ De unde nu te gândești,",",de-acolo sare iepurele.
 După ce leul moare,",",mulți se găsesc să-l jupoaie.
 E cât un țânțar,și,se crede armăsar.
 Fură oul de sub găină,și,vițelul din vacă.
-"""Furnica, când îi vine moartea""",",",scoate aripi și zboară.
+"Furnica, când îi vine moartea",",",scoate aripi și zboară.
 Găina bătrână face zama bună,dar,nici zama de pui proastă nu-i.
-"""Ghici, boule""",",","""pricepe-te, măgarule."""
+"Ghici, boule",",","""pricepe-te, măgarule."""
 Greierele în vremea agoniselei cântă,și,iarna cere să se împrumute.
 Hrănește-l pe lup cât l-ai hrăni,",",el tot la pădure trage.
 I-a ieșit ursu-n cale,și,îi pare că pușca-i moale.
 Iepurașul nu-i fricos,",",numai că se cam dă la dos.
-"""Iepurele, de unde sare""",",",urmă n-are.
+"Iepurele, de unde sare",",",urmă n-are.
 Lac de ar fi,",",broaște sunt destule.
 Iepuroaica fată,și,iepurele de inimă se vaietă.
 Încuie grajdul,",",după ce i-au mâncat lupii boii.
@@ -741,11 +741,11 @@ Lupul își schimbă părul,dar,năravul ba.
 Lupul moare bătrân,și,de rele tot e bun.
 Mare-i puterea boului,dar,și un copil îi pune funia-n coarne.
 Măgar s-a dus,",",măgar s-a întors.
-"""Mâța, dacă nu ajunge la slanină""",",",zice că pute.
+"Mâța, dacă nu ajunge la slanină",",",zice că pute.
 Miluește câinele,",",de vrei să nu te muște.
 Moartea lupului,",",sănătatea oilor.
 Mulți câini îl latră pe urs,dar,niciunul nu-l mușcă.
-"""Musca, deși nu mușcă tare""",",",tot ți-aduce supărare.
+"Musca, deși nu mușcă tare",",",tot ți-aduce supărare.
 Nici cal,",",nici măgar.
 Nici curcă,",",nici curcan.
 Nici din câine slănină,",",nici din cățea smântână.
@@ -753,7 +753,7 @@ Nicio frică de furnică,",","""de țânțar, nici habar."""
 Nu crede capra,că,nu va roade pomul.
 Nu întărâta viesparul,că,te mușcă mai rău albinele.
 Nu te speria de câinele care latră,ci,de cel care se apropie pe furiș.
-"""Oaia, cât de hoață ar fi""",",",nimeni n-o va bănui.
+"Oaia, cât de hoață ar fi",",",nimeni n-o va bănui.
 Oaia se duce la scai,",",nu scaiul la oaie.
 Oaia unde paște,",",acolo își pierde lâna.
 Oile grămadă merg,",",caprele se aleg.
@@ -765,7 +765,7 @@ Pe lup mulți câini îl latră,dar,puțini îl încolțesc.
 Pe măgar unde-l legi,",",acolo rămâne.
 Pe unde trece lupul,",",i se cunoaște urma.
 Peștele caută unde-i mai adânc,iar,omul unde-i mai bine.
-"""Pisica, cum o dai""",",",tot în picioare cade.
+"Pisica, cum o dai",",",tot în picioare cade.
 "Porcul tot strânge, se-ngrașă bine",dar,"pentru alții, nu pentru sine."
 Porcului îi place în glod,iar,bețivului în crâșmă.
 Puii care vor să zboare înainte de vreme,",",cad și se prăpădesc.
@@ -773,8 +773,8 @@ Puricele cât de mic,",",sare cât o căprioară.
 Râde rața de baltă,și,baba de fată.
 S-a dus bou,și,s-a întors vacă.
 Șade pielea ursului în târg,și,ursul în pădure.
-"""Șarpele, când îl doare capul""",",",iese la drum.
-"""Sarpele, cât de mult îl vei mângâia""",",",el tot de va mușca.
+"Șarpele, când îl doare capul",",",iese la drum.
+"Sarpele, cât de mult îl vei mângâia",",",el tot de va mușca.
 Șarpele până nu-l calci,",",nu te mușcă.
 Și câinele iese din iarnă,dar,numai pielea lui știe cum.
 Și cu oile toate,și,cu lupii prieteni nu se poate.
@@ -806,15 +806,15 @@ Vulpea nu se teme de vânătorul,care,se laudă seara.
 Zăbala de argint,nu,face mai bun calul.
 Nu averea face pe om,ci,omul face averea.
 Omul are un dulce,și,un amar.
-"""Omul, ca lumânarea, când luminează""",",",atunci se sfârșește.
+"Omul, ca lumânarea, când luminează",",",atunci se sfârșește.
 Omul caută leac,unde,simte că-l doare.
-"""Omul, când nu are ce lucra""",",",își face de lucru.
-"""Omul, când se bolnăvește""",",",cel mai mic îi poruncește.
-"""Omul, cât trăiește""",",",dușmanii și-i sporește.
+"Omul, când nu are ce lucra",",",își face de lucru.
+"Omul, când se bolnăvește",",",cel mai mic îi poruncește.
+"Omul, cât trăiește",",",dușmanii și-i sporește.
 Omul cel mai iscusit,uneori,e păcălit.
 Omul cu meșteșug,nu,piere.
 Omul cu de toate se deprinde,",",numai să vrea.
-"""Omul, dând peste nevoie""",",",multe face fără voie.
+"Omul, dând peste nevoie",",",multe face fără voie.
 Omul de ce-i place,",",de aceea se îngrașă.
 Omul de nimic nu se teme,ca,de bătaie.
 Omul deștept cumpără vara sanie,și,iarna căruță.
@@ -830,20 +830,20 @@ Omul fără muiere,",",ca un om fără cămașă.
 Omul fără soție,",",ca o casă pustie.
 Omul harnic caută a aduna la bogății,ca,furnica la mușuroi.
 Omul își schimbă mintea,ca,o haină în toate zilele.
-"""Omul",la nevoie,"se prinde"",și,de ascuțișul sabiei."
+"Omul, la nevoie, se prinde",și,de ascuțișul sabiei.
 Omul moare,dar,faptele sale se pomenesc în veci.
 Omul nu caută ce-i în inimă,ci,ce-i în gură.
 Omul nu iese cu dosul la oameni,ci,cu obrazul.
 Omul nu trăiește să mănânce,ci,manâncă să trăiască.
 Omul oricât trăiește,",",învățând se folosește.
 Omul poate povățui pe altul,dar,pe sine niciodată.
-"""Omul prost, dacă nu e fudul""",",",nu are niciun haz.
+"Omul prost, dacă nu e fudul",",",nu are niciun haz.
 Omul seamănă cu apa,",","""dacă stă mult, se strică."""
 Omul se ține de cuvânt,și,boul de coarne.
 Omul trage la om,și,dobitocul la dobitoc.
 Omului îî plac toate,dar,să le roadă nu poate.
 Scump îi omul,",",ieftin îi omul.
-"""Tot omul, când e tânăr""",",",e frumos.
+"Tot omul, când e tânăr",",",e frumos.
 Una spune omul,și,alta face Domnul.
 Lumea-i mare,și,capăt n-are.
 Cine n-are cap,",",nu-l doare.
